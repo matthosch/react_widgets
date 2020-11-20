@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import useDebounce from "../utils/useDebounce";
+import useDebounce from "../hooks/useDebounce";
 import googleTranslate from "../apis/googleTranslate";
 
 const Convert = ({ language, text }) => {

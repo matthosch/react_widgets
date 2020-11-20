@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import dompurify from "dompurify";
-import useDebounce from "../utils/useDebounce";
+import useDebounce from "../hooks/useDebounce";
 import wikipedia from "../apis/wikipedia";
 
 const Search = () => {
