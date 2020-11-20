@@ -4,6 +4,7 @@ import googleTranslate from "../apis/googleTranslate";
 
 const Convert = ({ language, text }) => {
   const [translated, setTranslated] = useState("");
+
   const debouncedText = useDebounce(text, 500);
 
   useEffect(() => {
